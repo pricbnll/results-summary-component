@@ -82,7 +82,7 @@ or
 
 ## Author
 
-- GitHub - (https://github.com/Pricbnll)
+- GitHub - [@pricbnll](https://github.com/username)
 - Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/yourusername)
 
 
