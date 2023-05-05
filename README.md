@@ -7,7 +7,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -44,14 +43,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### What I learned
 
-- Reading about variable fonts
-
-  (https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
-  (https://variablefonts.typenetwork.com)
-  (https://medium.com/variable-fonts)
-
+- [Reading about variable fonts](https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
 - Opacity : HSL in which a fourth arguments defines an opacity of the color. This fourth decimal number is between 0 and 1.
-
 - Centralize 'class:container' at page 
 - divide 'card' in 2 - dv.result has the same sze of div.summary
 - Media Query
@@ -79,10 +72,10 @@ or
 
 ## Author
 
-- GitHub - (https://github.com/Pricbnll)
-- Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [@Pricbnll](https://github.com/pricbnll)
+- Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/pricbnll)
 
 
 ## Acknowledgments
 
-Thanks for my brother Luciano and Hora de codar video´s
+Thanks for my brother Luciano and [Hora de codar](https://www.horadecodar.com.br) video´s
