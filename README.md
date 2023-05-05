@@ -21,17 +21,14 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### The challenge
 
 - View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- See hover and focus states for all interactive elements on the page - DID NOT DO THIS, I DID NOT UNDERSTAND OR NO ABOUT IT
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
 ### Screenshot
 
-![Desktop](Screen%20Shot%202023-05-05%20at%2019.26.06.png)
-![Mobile](Screen%20Shot%202023-05-05%20at%2019.27.37.png)
-
-
-### Links
+![Desktop](./design/desktop-screenshot.jpg)
+![Mobile](./design/mobile-screenshot.jpg)
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 
@@ -82,10 +79,10 @@ or
 
 ## Author
 
-- GitHub - [@pricbnll](https://github.com/prcbnll)
-- Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/pricbnll)
+- GitHub - (https://github.com/Pricbnll)
+- Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/yourusername)
 
 
 ## Acknowledgments
 
-Thanks for my brother Luciano and Hora de codar video´s# results-summary-component
+Thanks for my brother Luciano and Hora de codar video´s

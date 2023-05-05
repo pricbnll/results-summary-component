@@ -216,7 +216,6 @@ button {
     font-size: 11px; 
     text-align: center; 
     /* opacity: 10%; */
-    position: relative;
 }
 
 .attribution a { 
