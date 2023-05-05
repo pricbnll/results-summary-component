@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: Hanken Grotesk, sans-serif;
+    background-color: hsl(221, 100%, 96%);
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Your result/Summary */
+h1 {
+    font-size: 1.45rem;
+    padding-bottom: 2rem;
+}
+
+/* Summary */
+h2{
+    font-size: 1.45rem;
+    padding-bottom: 2rem;
+    font-weight: 800 !important; 
+}
+
+/* 76 */
+h3 {
+    font-size: 4.5rem;
+}
+
+/* Summary List */
+span {
+    opacity: 25%;
+    font-weight: 800 !important;
+}
+
+/* Great */
+h4{
+    font-size: 2rem;
+    padding: 2rem 2rem  1rem;
+}
+.reaction p{
+    font-weight: 800;
+    opacity: 90% !important;
+} 
+
+.memory p{
+    font-weight: 800;
+    opacity: 90% !important;
+}
+
+.verbal p{
+    font-weight: 800;
+    opacity: 90% !important;
+} 
+
+.visual p{
+    font-weight: 800;
+    opacity: 90% !important;
+}
+
+.color {
+    margin-right: 80px;
+    font-weight: 700;
+}
+  
+.result h1, p {
+    opacity: 65%;  
+}
+
+.circle p {
+    opacity: 35%; 
+}
+
+.card{    
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    display: flex ;
+    
+    width: 680px;
+ 
+}
+
+.circle {
+    background: linear-gradient(0deg, hsla(241, 72%, 46%, 0) 0%,hsla(256, 72%, 46%, 1) 100%);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.result{
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(0deg, hsl(241, 81%, 54%) 0%,hsl(252, 100%, 67%) 100%);
+    border-radius: 1rem;
+    padding: 2.8rem;
+    width: 50%;
+}
+
+.summary {
+    text-align: left;
+    padding: 2.8rem; 
+    width: 50%;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+    display: flex;
+    padding: 13px 0;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+}
+
+.reaction {
+    background-color:hsl(0, 100%, 67%, 0.05);
+    
+}
+.reaction .color {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsl(39, 100%, 56%, 0.05);
+}
+.memory .color {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 37%, 0.05);
+}
+.verbal .color {
+    color: hsl(166, 100%, 37%);
+
+}
+
+.visual {
+    background-color:  hsl(234, 85%, 45%, 0.05);  
+}
+.visual .color {
+    color: hsl(234, 85%, 45%);
+}
+
+/* Btn continue */
+button {
+    display: block;
+    margin-top: 2.5rem;
+    padding: 1rem 5rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1.7rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    /* opacity: 10%; */
+    position: relative;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media  screen and (max-width:375px) {
+    .card {
+        flex-direction: column;  
+    }
+    .color {
+        margin-right: 0;
+    }
+    .result, .summary {
+        width: 70%;
+    }
+}
+
+
+
+/* # Front-end Style Guide
+
+# Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+
+### Notes
+
+Use transparency to get the colour variations necessary to match the design. Hint: look into using `hsla()`.
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraphs): 18px
+
+### Font
+
+- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
+- Weights: 500, 700, 800 */
