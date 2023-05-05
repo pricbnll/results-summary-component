@@ -82,8 +82,8 @@ or
 
 ## Author
 
-- GitHub - [@pricbnll](https://github.com/username)
-- Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [@pricbnll](https://github.com/prcbnll)
+- Frontend Mentor - [@PriCbnll](https://www.frontendmentor.io/profile/pricbnll)
 
 
 ## Acknowledgments
